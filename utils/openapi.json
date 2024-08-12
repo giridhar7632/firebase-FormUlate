@@ -1,0 +1,87 @@
+{
+  "title": "Luggage Information Form",
+  "action": "create",
+  "fields": [
+    {
+      "field": "input",
+      "type": "text",
+      "name": "name",
+      "label": "Your Name",
+      "placeholder": "John Doe",
+      "required": true
+    },
+    {
+      "field": "input",
+      "type": "email",
+      "name": "email",
+      "label": "Your Email",
+      "placeholder": "johndoe@example.com",
+      "required": true
+    },
+    {
+      "field": "select",
+      "type": "dropdown",
+      "name": "luggageType",
+      "label": "Type of Luggage",
+      "options": [
+        {
+          "value": "suitcase",
+          "label": "Suitcase"
+        },
+        {
+          "value": "backpack",
+          "label": "Backpack"
+        },
+        {
+          "value": "duffel",
+          "label": "Duffel Bag"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ],
+      "required": true
+    },
+    {
+      "field": "input",
+      "type": "text",
+      "name": "luggageBrand",
+      "label": "Luggage Brand",
+      "placeholder": "Samsonite",
+      "required": false
+    },
+    {
+      "field": "input",
+      "type": "text",
+      "name": "luggageModel",
+      "label": "Luggage Model",
+      "placeholder": "Horizon 2.0",
+      "required": false
+    },
+    {
+      "field": "input",
+      "type": "number",
+      "name": "luggageWeight",
+      "label": "Luggage Weight (in kg)",
+      "placeholder": "20",
+      "required": true
+    },
+    {
+      "field": "input",
+      "type": "number",
+      "name": "luggageDimensions",
+      "label": "Luggage Dimensions (in cm)",
+      "placeholder": "55x40x25",
+      "required": true
+    },
+    {
+      "field": "textarea",
+      "type": "text",
+      "name": "luggageDescription",
+      "label": "Luggage Description",
+      "placeholder": "Any special features or markings on your luggage?",
+      "required": false
+    }
+  ]
+}
